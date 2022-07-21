@@ -1,6 +1,5 @@
 <template>
   <div>
-    {{ fetchState }}
     <div v-if="fetchState.pending">
       <p>Loading...</p>
     </div>
